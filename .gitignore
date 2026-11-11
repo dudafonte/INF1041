@@ -1,4 +1,58 @@
-__pycache__/
 
-# macOS
+# Bytecode Python
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# Arquivos de configuração local
+.env
+.env.*
+!.env.example
+
+# Distribuição e build
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking e lint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Sistema operacional
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporários
+*.tmp
+*.bak
